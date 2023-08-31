@@ -69,6 +69,9 @@ h1 {
   font-size: 45px;
   line-height: 55px;
 }
+h2 {
+  margin-top: 30px;
+}
 .description {
   font-weight: 400;
   font-size: 14px;
@@ -78,7 +81,7 @@ h1 {
 }
 .projects {
   width: 450px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 .list-primary {
   font-weight: 700;
@@ -118,12 +121,12 @@ h1 {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  margin-bottom: 16px;
 }
 .job-name {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 20px;
 }
 .highlight {
   color: #fb6d3a;
@@ -172,5 +175,14 @@ h4 {
 
 .blocks {
   width: 600px;
-  margin-bottom: 45px;
+
+  margin-bottom: 40px;
+}
+.gallup-explanation {
+  margin-top: 1000px;
+  padding: 10px;
+}
+.explanation {
+  color: whitesmoke;
+  font-size: 12px;
 }
