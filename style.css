@@ -54,20 +54,21 @@ aside {
 }
 
 main {
-  padding: 102px 88px 102px 88px;
+  padding: 88px 60px 88px 60px;
 }
 .main-description {
   width: 600px;
 }
 .job-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 17px;
 }
 h1 {
   font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 65px;
+  line-height: 65px;
+  color: navy;
 }
 h2 {
   margin-top: 30px;
@@ -130,6 +131,8 @@ h2 {
 }
 .highlight {
   color: #fb6d3a;
+
+  font-weight: bold;
 }
 .job-date {
   font-weight: 400;
