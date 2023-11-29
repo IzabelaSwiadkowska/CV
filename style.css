@@ -58,20 +58,41 @@ main {
 }
 .main-description {
   width: 600px;
+  position: relative;
 }
 .job-title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 17px;
+  letter-spacing: 10px;
+  color: #5ba7d1;
+  text-transform: uppercase;
+  padding: 15px 0;
 }
 h1 {
   font-weight: 700;
   font-size: 65px;
   line-height: 65px;
   color: navy;
+  text-transform: uppercase;
+  margin: 0;
+}
+hr {
+  width: 80px;
+  border: 1px solid grey;
+  position: absolute;
+  top: 140px;
+  left: 0;
 }
 h2 {
   margin-top: 30px;
+}
+.about-me {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #5ba7d1;
 }
 .description {
   font-weight: 400;
@@ -83,6 +104,11 @@ h2 {
 .projects {
   width: 500px;
   margin-bottom: 30px;
+}
+.subtitle {
+  color: #5ba7d1;
+  text-decoration: underline;
+  font-size: 18px;
 }
 .list-primary {
   font-weight: 700;
@@ -109,6 +135,7 @@ h2 {
   line-height: 24px;
   color: #595959;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .list-secondary-item {
   font-weight: 400;
@@ -122,6 +149,9 @@ h2 {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+  color: #5ba7d1;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 .job-name {
   font-weight: 700;
@@ -161,6 +191,7 @@ h4 {
   text-decoration: underline;
   color: purple;
   font-weight: 100;
+
   &:hover {
     font-weight: bold;
   }
@@ -188,4 +219,13 @@ h4 {
 .explanation {
   color: whitesmoke;
   font-size: 12px;
+}
+
+.work,
+.education,
+.other {
+  text-decoration: none;
+}
+.list-item {
+  padding-bottom: 10px;
 }
